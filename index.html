@@ -186,9 +186,6 @@
                         <td class="visible-with-data" id="Mosaico" colspan="2"><strong>Mosaico</strong><br />' + (feature.properties['Mosaico'] !== null ? autolinker.link(String(feature.properties['Mosaico']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td class="visible-with-data" id="Foto" colspan="2"><strong>Foto</strong><br />' + (feature.properties['Foto'] !== null ? autolinker.link(String(feature.properties['Foto']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <td class="visible-with-data" id="Foto" colspan="2"><strong>Foto</strong><br /><img src="' + feature.properties['Foto'] + '"></td>\
                     </tr>\
                 </table>';
@@ -250,7 +247,7 @@
                         <td class="visible-with-data" id="Mosaico" colspan="2"><strong>Mosaico</strong><br />' + (feature.properties['Mosaico'] !== null ? autolinker.link(String(feature.properties['Mosaico']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td class="visible-with-data" id="Foto" colspan="2"><strong>Foto</strong><br />' + (feature.properties['Foto'] !== null ? autolinker.link(String(feature.properties['Foto']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Foto" colspan="2"><strong>Foto</strong><br /><img src="' + feature.properties['Foto'] + '"></td>\
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -311,7 +308,7 @@
                         <td class="visible-with-data" id="Mosaico" colspan="2"><strong>Mosaico</strong><br />' + (feature.properties['Mosaico'] !== null ? autolinker.link(String(feature.properties['Mosaico']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td class="visible-with-data" id="Foto" colspan="2"><strong>Foto</strong><br />' + (feature.properties['Foto'] !== null ? autolinker.link(String(feature.properties['Foto']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Foto" colspan="2"><strong>Foto</strong><br /><img src="' + feature.properties['Foto'] + '"></td>\
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -372,7 +369,7 @@
                         <td class="visible-with-data" id="Mosaico" colspan="2"><strong>Mosaico</strong><br />' + (feature.properties['Mosaico'] !== null ? autolinker.link(String(feature.properties['Mosaico']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td class="visible-with-data" id="FotoMos" colspan="2"><strong>Foto</strong><br />' + (feature.properties['FotoMos'] !== null ? autolinker.link(String(feature.properties['FotoMos']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Foto" colspan="2"><strong>Foto</strong><br /><img src="' + feature.properties['Foto'] + '"></td>\
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
